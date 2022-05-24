@@ -1,5 +1,4 @@
 import Soccer from '../assets/img/sportdata.png'
-import Rosa from '../assets/img/rosa.JPG'
 import Manage from '../assets/img/manage.JPG'
 import Danny from '../assets/img/danny.JPG'
 import Easy from '../assets/img/easy.png'
