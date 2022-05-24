@@ -6,7 +6,6 @@ import { ReactComponent as Close } from '../assets/icons/close.svg'
 const Navbar = ({ current }) => {
   const [mobile, setMobile] = useState(true)
   const navbarClicked = (e) => {
-    let list = document.querySelector('nav ul')
     if (mobile) {
       addMobileNav()
     } else {
