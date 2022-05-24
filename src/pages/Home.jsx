@@ -47,7 +47,7 @@ const Home = () => {
           <p className='text-primary font-sans text-xl'>
             Hi, I am eyobel kirub
           </p>
-          <h1 className='font-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light w-full  xl:w-3/5 leading-tight md:leading-normal xl:leading-relaxed mb-6 lg:mb-2 capitalize'>
+          <h1 className='font-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light w-full  xl:w-4/5 leading-tight md:leading-normal xl:leading-relaxed mb-6 lg:mb-2 capitalize'>
             i <span className='font-medium'>design</span> and
             <span className='font-medium'> develop</span> web experiences
           </h1>
