@@ -184,7 +184,7 @@ const Project = () => {
             />
           </div>
         </div>
-        <div className='flex items-start md:space-x-4 space-y-6 mb-8 md:mb-24 flex-col lg:flex-row'>
+        {/* <div className='flex items-start md:space-x-4 space-y-6 mb-8 md:mb-24 flex-col lg:flex-row'>
           <div className='left'>
             <h1 className='text-3xl md:text-4xl font-title mb-4 font-bold capitalize'>
               Manage
@@ -224,7 +224,7 @@ const Project = () => {
           <div className='right'>
             <img src={Soccer} alt='danny design' className='w-full shadow-lg' />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
