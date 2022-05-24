@@ -1,13 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.h-screen-header {
+  height: calc(100vh - 134px);
+}
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* floating elements */
+.pos-top {
+  top: -4rem;
+  left: 2rem;
+}
+.float-ring {
+  top: 2rem;
+  left: 0;
+}
+.float-sass {
+  top: -2rem;
+  left: 35rem;
+}
+.float-tail {
+  top: 6rem;
+  left: 63rem;
+}
+.float-dots {
+  top: 12rem;
+  right: -6rem;
+  transform: rotate(90deg);
+}
+.float-shape {
+  top: -20rem;
+  left: 0rem;
+  z-index: -11;
+}
+.float-redux {
+  top: 26rem;
+  left: 60rem;
 }
