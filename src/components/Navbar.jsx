@@ -85,22 +85,22 @@ const Navbar = ({ current }) => {
             </Link>
           </li>
           <li className='mx-4 my-6 md:my-0'>
-            <Link
-              to='/#projects'
+            <a
+              href='/#projects'
               onClick={removeMobileNav}
               className='text-xl hover:text-cyan-500 duration-500'
             >
               Projects
-            </Link>
+            </a>
           </li>
           <li className='mx-4 my-6 md:my-0'>
-            <Link
-              to='/#skills'
+            <a
+              href='/#skills'
               onClick={removeMobileNav}
               className='text-xl hover:text-cyan-500 duration-500'
             >
               Skills
-            </Link>
+            </a>
           </li>
           <li className='mx-4 my-6 md:my-0'>
             <Link

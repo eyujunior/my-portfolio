@@ -2,6 +2,7 @@ import Soccer from '../assets/img/sportdata.png'
 import Manage from '../assets/img/manage.JPG'
 import Danny from '../assets/img/danny.JPG'
 import Easy from '../assets/img/easy.png'
+import Cocktail from '../assets/img/cocktail.jpg'
 const Project = () => {
   return (
     <section id='work' className='px-4'>
@@ -96,25 +97,34 @@ const Project = () => {
           </div>
         </div>
 
+        {/* Third */}
         <div className='flex items-start md:space-x-4 space-y-6 mb-8 md:mb-24 flex-col lg:flex-row'>
           <div className='left'>
             <h1 className='text-3xl md:text-4xl font-title mb-4 font-bold capitalize'>
-              Perfect Score website
+              Cocktail Recipes
             </h1>
             <div className='flex items-center space-x-2 mb-4'>
-              <span className='px-4 py-2 rounded-md bg-tagLight'>Html</span>
-              <span className='px-4 py-2 rounded-md bg-tagLight'>Scss</span>
+              <span className='px-4 py-2 rounded-md bg-tagLight'>React</span>
+              <span className='px-4 py-2 rounded-md bg-tagLight'>Tailwind</span>
+              <span className='px-4 py-2 rounded-md bg-tagLight'>
+                Redux Toolkit
+              </span>
+              <span className='px-4 py-2 rounded-md bg-tagLight'>API</span>
             </div>
             <p className='text-xl mb-6 leading-relaxed capitalize'>
-              a Frontend mentors Challenge I did with focus on getting Perfect
-              Score on Google Lighthouse test for (Accessibility, performance,
-              best practice and SEO)
+              This web app Built using react, tailwind, and redux toolkit that
+              uses the
+              <a href='https://www.thecocktaildb.com/api.php'>
+                The Cocktail DB
+              </a>
+              Api to fetch cocktail recipes. It has the features for users to
+              search their favourite drinks and save it on there localstorage
             </p>
 
             <div className='flex space-x-4 justify-center lg:justify-start'>
               <button className='px-6 py-2 bg-primary text-white border-2 border-primary text-xl rounded-md border-2'>
                 <a
-                  href='https://eyu-easy-bank.netlify.app/'
+                  href='https://eyu-cocktail.netlify.app/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -124,7 +134,7 @@ const Project = () => {
 
               <button className='px-6 py-2 bg-transparent text-secondary border-2 border-current text-xl rounded-md border-2'>
                 <a
-                  href='https://github.com/eyujunior/easy-bank'
+                  href='https://github.com/eyujunior/cocktail'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -134,7 +144,11 @@ const Project = () => {
             </div>
           </div>
           <div className='right'>
-            <img src={Easy} alt='danny design' className='w-full shadow-lg' />
+            <img
+              src={Cocktail}
+              alt='danny design'
+              className='w-full shadow-lg'
+            />
           </div>
         </div>
 
@@ -183,25 +197,25 @@ const Project = () => {
             />
           </div>
         </div>
-        {/* <div className='flex items-start md:space-x-4 space-y-6 mb-8 md:mb-24 flex-col lg:flex-row'>
+        <div className='flex items-start md:space-x-4 space-y-6 mb-8 md:mb-24 flex-col lg:flex-row'>
           <div className='left'>
             <h1 className='text-3xl md:text-4xl font-title mb-4 font-bold capitalize'>
-              Manage
+              Perfect Score website
             </h1>
             <div className='flex items-center space-x-2 mb-4'>
               <span className='px-4 py-2 rounded-md bg-tagLight'>Html</span>
               <span className='px-4 py-2 rounded-md bg-tagLight'>Scss</span>
             </div>
             <p className='text-xl mb-6 leading-relaxed capitalize'>
-              This website is a challenge from front-end mentors.it main focus
-              was to make it responsive and demonstrate my skill of taking any
-              design and making it live in the browser.
+              a Frontend mentors Challenge I did with focus on getting Perfect
+              Score on Google Lighthouse test for (Accessibility, performance,
+              best practice and SEO)
             </p>
 
             <div className='flex space-x-4 justify-center lg:justify-start'>
               <button className='px-6 py-2 bg-primary text-white border-2 border-primary text-xl rounded-md border-2'>
                 <a
-                  href='http://eyujunior.github.io/BigLeagues'
+                  href='https://eyu-easy-bank.netlify.app/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -211,7 +225,7 @@ const Project = () => {
 
               <button className='px-6 py-2 bg-transparent text-secondary border-2 border-current text-xl rounded-md border-2'>
                 <a
-                  href='http://github.com/eyujunior/BigLeagues'
+                  href='https://github.com/eyujunior/easy-bank'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -221,9 +235,9 @@ const Project = () => {
             </div>
           </div>
           <div className='right'>
-            <img src={Soccer} alt='danny design' className='w-full shadow-lg' />
+            <img src={Easy} alt='danny design' className='w-full shadow-lg' />
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   )

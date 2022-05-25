@@ -16,34 +16,34 @@ const Home = () => {
         <img
           src={floatRing}
           alt='floatRing'
-          className='absolute hidden xl:block float-ring hidden xl:block'
+          className='absolute hidden w-40 h-40 xl:block float-ring hidden xl:block'
         />
         <img
           src={floatSass}
           alt='floatSass'
-          className='absolute hidden xl:block float-sass'
+          className='absolute hidden w-40 h-40 xl:block float-sass'
         />
         <img
           src={floatTail}
           alt='floatTail'
-          className='absolute hidden xl:block float-tail'
+          className='absolute hidden w-40 h-40 xl:block float-tail'
         />
         <img
           src={floatRedux}
           alt='floatRing'
-          className='absolute hidden xl:block float-redux'
+          className='absolute hidden w-40 h-40 xl:block float-redux'
         />
         <img
           src={Dots}
           alt='Dots'
-          className='absolute hidden xl:block float-dots'
+          className='absolute hidden w-40 h-40 xl:block float-dots'
         />
         <img
           src={shape}
           alt='shape'
-          className='absolute hidden xl:block float-shape'
+          className='absolute hidden w-40 h-40 xl:block float-shape'
         />
-        <div className='absolute top-1/4 text-center md:text-left '>
+        <div className='absolute top-6  sm:top-1/4 text-center md:text-left '>
           <p className='text-primary font-sans text-xl'>
             Hi, I am eyobel kirub
           </p>
@@ -70,7 +70,10 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className='font-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-2 lg:mb-6 mt-20 capitalize text-center'>
+        <h1
+          id='projects'
+          className='font-title text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-2 lg:mb-6 mt-20 capitalize text-center'
+        >
           Projects
         </h1>
         <p className='text-center text-xl lg:text-2xl font-sans md:mb-20 mb-8 px-4'>
@@ -80,7 +83,10 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className='font-title text-7xl font-bold leading-tight mb-2 capitalize text-center'>
+        <h1
+          id='skills'
+          className='font-title text-7xl font-bold leading-tight mb-2 capitalize text-center'
+        >
           Skills
         </h1>
 
