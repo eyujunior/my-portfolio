@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className='container mx-auto'>
+        <div className='py-2 px-6'>
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
