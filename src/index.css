@@ -4,6 +4,7 @@
 
 body {
   overflow-x: hidden;
+  max-width: 100vw;
 }
 .h-screen-header {
   height: calc(100vh - 134px);
@@ -25,7 +26,7 @@ body {
   left: 0;
 }
 .float-sass {
-  top: -2rem;
+  top: 0rem;
   left: 35rem;
 }
 .float-tail {
@@ -43,6 +44,6 @@ body {
   z-index: -11;
 }
 .float-redux {
-  top: 26rem;
-  left: 60rem;
+  top: 24rem;
+  left: 55rem;
 }
